@@ -1,13 +1,55 @@
 <%- include Partials/header.ejs %>
 <%- include Partials/main_nav.ejs %>
 
-<main>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">Welcome to <%= title %> page</h1>
+<div class = "projectsContainer">
+  <div class = "projTop">
+    <h1 class = "title">Projects</h1>
+  </div>
+
+  <div class = "projects">
+    <div class = "proj">
+      <img src="/Assets/images/java.png" class = "projImg">
+      <div class = "projDetails">
+          <h3>Project 1 - Java Game in Grade 12</h3>
+          <p>
+            Me and my group in Grade 12 had to make a game based on our skills.
+          </p>
+          <p>
+            We created an attack game using our skills and acheived a 100% grade.
+          </p>
+      </div>
+    </div> <br>
+
+    <div class = "proj">
+      <img src="/Assets/images/database.jpg" class = "projImg2">
+      <div class = "projDetails">
+        <h3>Project 2 - Student Database Project - Intro to Programming</h3>
+        <p>
+          Me and my partner in first year had to make a student database that can be used to add items.
+        </p>
+        <p>
+          Our task was to use our skills, in which we did and acheived a 80%.
+        </p>
+      </div>
+    </div> <br>
+
+    <div class = "proj">
+      <img src="/Assets/images/EncryptDecrypt.png" class = "projImg3">
+      <div class = "projDetails">
+        <h3>Project 3 - Encryption Decryption Assignment - Object Oriented Programming</h3>
+        <p>
+          Me and my partner in first year had to make a encryption decryption software. 
+        </p> 
+        <p>
+          We had to ask the user for a message and apply a encryption/decryption method to it.
+        </p>
+        <p>
+          Our task was to use our skills, in which we did and acheived a 90%.
+        </p>
+      </div>
     </div>
   </div>
-</main>
+</div> 
 
 <%- include Partials/bottom_nav.ejs %>
 <%- include Partials/footer.ejs %>
